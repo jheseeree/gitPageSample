@@ -1,4 +1,95 @@
+@font-face {
+    font-family: Poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: LeagueSpartan;
+    src: url(fonts/LeagueSpartan-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Sanchez;
+    src: url(fonts/Sanchez-Regular.ttf);
+}
+
 body {
-    background-image: url(Assets/csgo.jpg);
-    background-repeat: no-repeat;
+    background: #0E325D;
+    padding-top: 23px;
+    margin: 0px;
+    font-family: Poppins;
+}
+
+.navbar {
+    background:#ffffff;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 50;
+}
+
+.navbar-logo {
+    height: 35px;
+    width: auto;
+    padding: 10px;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: #736571;
+    margin-right: 20px;
+}
+
+.developer {
+    margin-top: 100px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: #0E325D; */
+}
+
+.developer .dev-icon {
+    width: 200px;
+    border-radius: 100%;
+}
+
+.developer h1 {
+    color: white;
+    margin-bottom: 0px;
+}
+
+.developer h4 {
+    color: rgb(241, 228, 46);
+    margin-top: 0px;
+    letter-spacing: 3px;
+}
+
+.developer p {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+footer {
+    margin-top: 100px;
+}
+
+footer p {
+    display: flex;
+    color: #ffffff;
+    padding-top: 120px;
+    font-size: 15px;
+    justify-content: center;
+    padding-bottom: 20px;
 }
